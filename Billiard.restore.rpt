@@ -1,0 +1,192 @@
+Restore Archived Project report for Billiard
+Mon Jun 24 18:40:49 2019
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon Jun 24 18:40:49 2019 ;
+; Revision Name                   ; Billiard                              ;
+; Top-level Entity Name           ; TOP_TEST                              ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/Natan/Downloads/Billiard.qar' into the 'C:/Users/Natan/Downloads/Billiard_restored/' directory
+Info: Generated report 'Billiard.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4838 megabytes
+    Info: Processing ended: Mon Jun 24 18:40:49 2019
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++-------------------------------------------------------+
+; Files Restored                                        ;
++-------------------------------------------------------+
+; File Name                                             ;
++-------------------------------------------------------+
+; qar_info.json                                         ;
+; Billiard.qpf                                          ;
+; Billiard.qsf                                          ;
+; RTL/GameController.sv                                 ;
+; RTL/KEYBOARD/KBDINTF.bdf                              ;
+; RTL/KEYBOARD/TOP_KBD_DEMOLPM.bdf                      ;
+; RTL/KEYBOARD/bitrec.sv                                ;
+; RTL/KEYBOARD/byterec.sv                               ;
+; RTL/KEYBOARD/keyPad_decoder.sv                        ;
+; RTL/KEYBOARD/keyToggle_decoderIn.sv                   ;
+; RTL/KEYBOARD/lpf.sv                                   ;
+; RTL/MSS/SinTable.sv                                   ;
+; RTL/MSS/SoundController.sv                            ;
+; RTL/MSS/TOP_MSS_DEMO.bdf                              ;
+; RTL/MSS/addr_counter.sv                               ;
+; RTL/MSS/data_conversion.sv                            ;
+; RTL/MSS/prescaler.sv                                  ;
+; RTL/NATAN/back_ground.sv                              ;
+; RTL/NATAN/ball_bitmap.sv                              ;
+; RTL/NATAN/ball_move.sv                                ;
+; RTL/NATAN/ball_object.sv                              ;
+; RTL/NATAN/hit.sv                                      ;
+; RTL/NATAN/hole_object.sv                              ;
+; RTL/NATAN/white_ball_move.sv                          ;
+; RTL/STICK/stick_move.sv                               ;
+; RTL/STICK/stick_object.sv                             ;
+; RTL/VGA/NumbersBitMap.sv                              ;
+; RTL/VGA/VGA_Controller.sv                             ;
+; RTL/VGA/objects_mux.sv                                ;
+; RTL/VGA/square_object.sv                              ;
+; RTL/audio_codec_controller/audio_codec_controller.qxp ;
+; RTL/tests/TOP_STICK_TEST.bdf                          ;
+; RTL/tests/TOP_TEST.bdf                                ;
+; RTL/tests/background.bsf                              ;
+; RTL/tests/background.cmp                              ;
+; RTL/tests/background.inc                              ;
+; RTL/tests/background.qip                              ;
+; RTL/tests/background.v                                ;
+; RTL/tests/background_bb.v                             ;
+; RTL/tests/background_inst.v                           ;
+; RTL/tests/background_syn.v                            ;
+; RTL/tests/centerx.bsf                                 ;
+; RTL/tests/centerx.cmp                                 ;
+; RTL/tests/centerx.inc                                 ;
+; RTL/tests/centerx.qip                                 ;
+; RTL/tests/centerx.v                                   ;
+; RTL/tests/centerx_bb.v                                ;
+; RTL/tests/centerx_inst.v                              ;
+; RTL/tests/centerx_syn.v                               ;
+; RTL/tests/centery.bsf                                 ;
+; RTL/tests/centery.cmp                                 ;
+; RTL/tests/centery.inc                                 ;
+; RTL/tests/centery.qip                                 ;
+; RTL/tests/centery.v                                   ;
+; RTL/tests/centery_bb.v                                ;
+; RTL/tests/centery_inst.v                              ;
+; RTL/tests/centery_syn.v                               ;
+; a.bsf                                                 ;
+; a.cmp                                                 ;
+; a.inc                                                 ;
+; a.qip                                                 ;
+; a.v                                                   ;
+; a_bb.v                                                ;
+; a_inst.v                                              ;
+; a_syn.v                                               ;
+; assignment_defaults.qdf                               ;
+; b.bsf                                                 ;
+; b.cmp                                                 ;
+; b.inc                                                 ;
+; b.qip                                                 ;
+; b.v                                                   ;
+; b_bb.v                                                ;
+; b_inst.v                                              ;
+; b_syn.v                                               ;
+; down_arrow.bsf                                        ;
+; down_arrow.cmp                                        ;
+; down_arrow.inc                                        ;
+; down_arrow.qip                                        ;
+; down_arrow.v                                          ;
+; down_arrow_bb.v                                       ;
+; down_arrow_inst.v                                     ;
+; down_arrow_syn.v                                      ;
+; output_files/Chain1.cdf                               ;
+; output_files/Waveform.vwf                             ;
+; output_files/Waveform1.vwf                            ;
+; pin.tcl                                               ;
+; space.bsf                                             ;
+; space.cmp                                             ;
+; space.inc                                             ;
+; space.qip                                             ;
+; space.v                                               ;
+; space_bb.v                                            ;
+; space_inst.v                                          ;
+; space_syn.v                                           ;
+; speed_lim.bsf                                         ;
+; speed_lim.cmp                                         ;
+; speed_lim.inc                                         ;
+; speed_lim.qip                                         ;
+; speed_lim.v                                           ;
+; speed_lim_bb.v                                        ;
+; speed_lim_inst.v                                      ;
+; speed_lim_syn.v                                       ;
+; speed_smoother.bsf                                    ;
+; speed_smoother.cmp                                    ;
+; speed_smoother.inc                                    ;
+; speed_smoother.qip                                    ;
+; speed_smoother.v                                      ;
+; speed_smoother_bb.v                                   ;
+; speed_smoother_inst.v                                 ;
+; speed_smoother_syn.v                                  ;
+; up_arrow.bsf                                          ;
+; up_arrow.cmp                                          ;
+; up_arrow.inc                                          ;
+; up_arrow.qip                                          ;
+; up_arrow.v                                            ;
+; up_arrow_bb.v                                         ;
+; up_arrow_inst.v                                       ;
+; up_arrow_syn.v                                        ;
++-------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
